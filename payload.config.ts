@@ -56,7 +56,11 @@ export default buildConfig({
               generateFileURL: ({ filename, prefix }) => {
                 const base = (process.env.R2_PUBLIC_URL || '').replace(/\/$/, '');
                 const key = prefix ? `${prefix}/${filename}` : filename;
-                return `${base}/${key}`;
+                const encoded = key
+                  .split('/')
+                  .map((segment) => encodeURIComponent(segment))
+                  .join('/');
+                return `${base}/${encoded}`;
               },
             },
           },
