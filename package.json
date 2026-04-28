@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node scripts/seed-db.mjs && next start -p ${PORT:-3000}",
     "lint": "next lint",
     "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
     "migrate:media": "tsx --env-file=.env.local scripts/migrate-media-to-r2.ts"

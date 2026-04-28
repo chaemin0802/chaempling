@@ -1,3 +1,4 @@
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { buildConfig } from 'payload';
@@ -19,6 +20,19 @@ const dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const useR2 = !!process.env.R2_BUCKET;
 
+// At build time on hosts like Railway the persistent volume isn't mounted yet,
+// so DATABASE_URI may point to a path that doesn't exist. Fall back to the
+// repo's bundled payload.db so the build can still read schema & seed data.
+function resolveDatabaseUri(): string {
+  const configured = process.env.DATABASE_URI || 'file:./payload.db';
+  if (!configured.startsWith('file:')) return configured;
+  const filePath = configured.replace(/^file:/, '');
+  if (fs.existsSync(filePath)) return configured;
+  const fallback = path.resolve(dirname, 'payload.db');
+  if (fs.existsSync(fallback)) return `file:${fallback}`;
+  return configured;
+}
+
 export default buildConfig({
   admin: {
     user: Users.slug,
@@ -28,7 +42,7 @@ export default buildConfig({
   globals: [About, Contact],
   editor: lexicalEditor(),
   db: sqliteAdapter({
-    client: { url: process.env.DATABASE_URI || 'file:./payload.db' },
+    client: { url: resolveDatabaseUri() },
     push: false,
   }),
   sharp,
