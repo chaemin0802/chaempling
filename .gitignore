@@ -1,0 +1,11 @@
+.next
+node_modules
+.env.local
+.env*.local
+out
+
+# Payload
+payload.db
+payload.db-journal
+/media
+/payload-types.ts

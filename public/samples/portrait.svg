@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="533" viewBox="0 0 400 533">
+  <rect width="400" height="533" fill="#1e1e2e"/>
+  <circle cx="200" cy="200" r="70" fill="#2d2d3d"/>
+  <ellipse cx="200" cy="180" rx="35" ry="40" fill="#3d3d4d"/>
+  <ellipse cx="200" cy="260" rx="55" ry="35" fill="#3d3d4d"/>
+  <rect x="80" y="380" width="240" height="1" fill="#fff" opacity="0.06"/>
+  <text x="200" y="420" text-anchor="middle" fill="#f0ede6" font-family="Helvetica,sans-serif" font-size="16" font-weight="600" opacity="0.6">Chaempling</text>
+  <text x="200" y="445" text-anchor="middle" fill="#f0ede6" font-family="Helvetica,sans-serif" font-size="10" letter-spacing="3" opacity="0.3">DESIGNER</text>
+</svg>

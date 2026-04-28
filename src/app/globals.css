@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&family=Kalam:wght@300;400;700&family=Gaegu:wght@300;400;700&family=Gowun+Batang:wght@400;700&display=swap");
+
+@theme {
+  /* Palette */
+  --color-bg: #0a0908;
+  --color-text: #f4ecd8;
+  --color-terracotta: #d96e4d;
+  --color-peach: #e8b4a0;
+  --color-lime: #c7e94e;
+
+  /* Tonal helpers */
+  --color-border: rgba(244, 236, 216, 0.12);
+  --color-muted: rgba(244, 236, 216, 0.45);
+  --color-card-bg: rgba(244, 236, 216, 0.06);
+
+  /* Type */
+  --font-display: "Space Grotesk", "Pretendard", sans-serif;
+  --font-hand: "Gaegu", "Gowun Batang", cursive;
+  --font-marker: "Caveat", "Kalam", "Gaegu", cursive;
+  --font-body: "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  scroll-snap-type: y proximity;
+}
+
+.snap-start {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 0;
+}
+
+/* Riso-ish grain overlay — apply via .grain class */
+.grain {
+  position: relative;
+}
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.06;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.6 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}

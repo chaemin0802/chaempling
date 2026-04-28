@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "scrollHint": "Scroll to explore"
+  },
+  "work": {
+    "title": "WORK",
+    "projects": "projects",
+    "back": "Work",
+    "prev": "Prev",
+    "next": "Next",
+    "tools": "Tools"
+  },
+  "about": {
+    "experience": "Experience",
+    "education": "Education",
+    "tools": "Tools"
+  },
+  "contact": {
+    "heading": "Let's work together.",
+    "subtext": "Have a project in mind? I'd love to hear about it. Drop me a line and let's create something great.",
+    "email": "Email",
+    "links": "Links"
+  }
+}
