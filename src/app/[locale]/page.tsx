@@ -2,7 +2,7 @@ import HeroSection from '@/components/HeroSection';
 import WorkGrid from '@/components/WorkGrid';
 import { getPublishedProjects } from '@/lib/content';
 
-export const revalidate = 60;
+export const dynamic = 'force-dynamic';
 
 export default async function HomePage({
   params,

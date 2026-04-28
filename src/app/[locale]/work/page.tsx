@@ -2,7 +2,7 @@ import { getPublishedProjects } from '@/lib/content';
 import { getTranslations } from 'next-intl/server';
 import WorkGrid from '@/components/WorkGrid';
 
-export const revalidate = 60;
+export const dynamic = 'force-dynamic';
 
 export default async function WorkPage() {
   const projects = await getPublishedProjects();
