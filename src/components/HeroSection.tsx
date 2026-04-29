@@ -35,25 +35,26 @@ export default function HeroSection({ locale }: HeroSectionProps) {
       <div
         style={{
           position: 'absolute',
-          top: 'clamp(40px, 8vh, 100px)',
-          left: 0,
-          right: 0,
+          inset: 0,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
           textAlign: 'center',
-          zIndex: 6,
+          zIndex: 2,
           pointerEvents: 'none',
-          padding: '0 16px',
+          padding: '0 24px',
         }}
       >
         <h1
           style={{
             fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(32px, 8vw, 156px)',
-            lineHeight: 0.95,
+            fontSize: 'clamp(48px, 10vw, 156px)',
+            lineHeight: 0.92,
             fontWeight: 700,
             letterSpacing: '-0.04em',
             color: 'var(--color-text)',
             margin: 0,
-            textShadow: '0 2px 18px rgba(0,0,0,0.45)',
+            transform: 'translateY(-70%)',
           }}
         >
           <span style={{ display: 'block' }}>Always a beginner,</span>
