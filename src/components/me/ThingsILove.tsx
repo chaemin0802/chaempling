@@ -6,6 +6,7 @@ import LoveGallery from './LoveGallery';
 
 export default async function ThingsILove() {
   const loves = await getLoves();
+  const shuffled = [...loves].sort(() => Math.random() - 0.5);
   const locale = await getLocale();
   const isKo = locale === 'ko';
 
@@ -57,7 +58,7 @@ export default async function ThingsILove() {
         </Reveal>
 
         <div style={{ marginTop: 'clamp(40px, 5vh, 64px)' }}>
-          <LoveGallery loves={loves} />
+          <LoveGallery loves={shuffled} />
         </div>
       </div>
     </Section>

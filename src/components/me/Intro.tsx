@@ -12,8 +12,8 @@ export default function Intro() {
 
   const lines = isKo
     ? [
-        '오, 너 나에 대해서 알고 싶구나?',
-        '좋아 좋아, 그럼 잠깐만 들어봐.',
+        '항상 초보, 이미 게임 속 — 그게 나야.',
+        '좋아 좋아, 좀 더 얘기해줄게.',
         '나는 서울의 그래픽 디자이너 임채민이야.',
         '그래픽, 브랜딩, 패키지, 편집, 모션, AI까지 두루 작업해.',
         '그래도 가장 좋아하는 건 손에 잡히는 디자인이야.',
@@ -21,8 +21,8 @@ export default function Intro() {
         '더 궁금하면?\n계속 스크롤.',
       ]
     : [
-        'oh, you wanna know about me?',
-        'ok ok, let me tell you a bit.',
+        "Always a beginner, already in the game — yeah, that's me.",
+        'ok ok, let me tell you a bit more.',
         "I'm Chaemin Lim, a graphic designer based in Seoul.",
         'I do graphic, branding, packaging, editorial, motion — and lately, AI too.',
         'but what I love most is design you can hold in your hand.',

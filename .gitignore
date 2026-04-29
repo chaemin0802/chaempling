@@ -7,6 +7,9 @@ out
 # Payload
 payload.db
 payload.db-journal
+payload.db-shm
+payload.db-wal
+.DS_Store
 /media
 /payload-types.ts
 /things i love

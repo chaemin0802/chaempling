@@ -49,15 +49,15 @@ export default function HeroSection({ locale }: HeroSectionProps) {
           style={{
             fontFamily: 'var(--font-display)',
             fontSize: 'clamp(48px, 10vw, 156px)',
-            lineHeight: 0.92,
+            lineHeight: 1.2,
             fontWeight: 700,
             letterSpacing: '-0.04em',
             color: 'var(--color-text)',
             margin: 0,
-            transform: 'translateY(-70%)',
+            transform: 'translateY(-85%)',
           }}
         >
-          <span style={{ display: 'block' }}>Always a beginner,</span>
+          <span style={{ display: 'block', transform: 'translateY(-6%)' }}>Always a beginner,</span>
           <span style={{ display: 'block' }}>Already in the game.</span>
         </h1>
       </div>
