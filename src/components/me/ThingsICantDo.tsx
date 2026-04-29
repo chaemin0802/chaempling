@@ -9,7 +9,7 @@ const ITEMS_EN = [
   { what: 'Swim', why: 'water is great, from the shore.' },
   { what: 'Bike', why: 'fell once. that was enough.' },
   { what: 'Drive', why: 'no license. no plans.' },
-  { what: 'Run', why: 'speed of vibes.' },
+  { what: 'Run fast', why: 'speed of vibes.' },
   { what: 'Cook', why: "can. shouldn't." },
   { what: 'Lie', why: 'shows on my face. always.' },
 ];
@@ -18,7 +18,7 @@ const ITEMS_KO = [
   { what: '수영', why: '물 좋아. 멀리서.' },
   { what: '자전거', why: '한 번 넘어졌어. 충분했어.' },
   { what: '운전', why: '면허 없음. 계획도 없음.' },
-  { what: '달리기', why: '속도는 분위기로.' },
+  { what: '빨리 달리기', why: '속도는 분위기로.' },
   { what: '요리', why: '할 수는 있어. 안 하는 게 나아.' },
   { what: '거짓말', why: '얼굴에 다 써짐. 매번.' },
 ];
