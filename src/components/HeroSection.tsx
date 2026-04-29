@@ -54,10 +54,10 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             letterSpacing: '-0.04em',
             color: 'var(--color-text)',
             margin: 0,
-            transform: 'translateY(-70%)',
+            transform: 'translateY(-78%)',
           }}
         >
-          <span style={{ display: 'block' }}>Always a beginner,</span>
+          <span style={{ display: 'block', transform: 'translateY(-4%)' }}>Always a beginner,</span>
           <span style={{ display: 'block' }}>Already in the game.</span>
         </h1>
       </div>
