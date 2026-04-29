@@ -48,8 +48,9 @@ export default function HeroPortrait({ size = 360, opacity, scale, onClick }: He
       transition={{ type: 'spring', stiffness: 300, damping: 22 }}
       style={{
         position: 'relative',
-        width: size,
-        height: size,
+        width: `min(${size}px, 60vw)`,
+        height: `min(${size}px, 60vw)`,
+        aspectRatio: '1 / 1',
         opacity,
         scale,
         perspective: 800,
