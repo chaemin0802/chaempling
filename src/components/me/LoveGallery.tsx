@@ -13,8 +13,8 @@ export default function LoveGallery({ loves }: LoveGalleryProps) {
     <div
       style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
-        gap: 'clamp(16px, 2vw, 28px)',
+        gridTemplateColumns: 'repeat(4, 1fr)',
+        gap: 'clamp(8px, 2vw, 28px)',
       }}
     >
       {loves.map((love, i) => (
@@ -70,14 +70,15 @@ function LoveCard({ love, index }: { love: Love; index: number }) {
           </div>
         )}
       </div>
-      <figcaption style={{ marginTop: 14 }}>
+      <figcaption style={{ marginTop: 'clamp(6px, 1vw, 14px)' }}>
         <div
           style={{
             fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(18px, 1.5vw, 22px)',
+            fontSize: 'clamp(12px, 1.5vw, 22px)',
             fontWeight: 600,
             letterSpacing: '-0.015em',
             color: 'var(--color-text)',
+            lineHeight: 1.2,
           }}
         >
           {love.title}
@@ -88,7 +89,7 @@ function LoveCard({ love, index }: { love: Love; index: number }) {
               marginTop: 4,
               fontFamily: 'var(--font-display)',
               fontWeight: 300,
-              fontSize: 14,
+              fontSize: 'clamp(10px, 1.1vw, 14px)',
               color: 'rgba(244,236,216,0.55)',
               lineHeight: 1.4,
             }}
