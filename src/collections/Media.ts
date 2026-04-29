@@ -24,6 +24,43 @@ export const Media: CollectionConfig = {
     // Disable the cap so high-res or long animations don't 400 on upload.
     constructorOptions: { limitInputPixels: false },
   },
+  hooks: {
+    beforeOperation: [
+      ({ req, operation }) => {
+        if (operation === 'create' || operation === 'update') {
+          const r = req as unknown as { file?: { name?: string; size?: number; mimetype?: string } };
+          if (r?.file) {
+            console.log('[media:upload] incoming', {
+              name: r.file.name,
+              size: r.file.size,
+              mimetype: r.file.mimetype,
+            });
+          }
+        }
+      },
+    ],
+    beforeChange: [
+      ({ data, operation }) => {
+        console.log('[media:beforeChange]', operation, {
+          filename: (data as { filename?: string })?.filename,
+          mimeType: (data as { mimeType?: string })?.mimeType,
+          filesize: (data as { filesize?: number })?.filesize,
+        });
+        return data;
+      },
+    ],
+    afterError: [
+      async ({ error, req, operation }) => {
+        const file = (req as unknown as { file?: { name?: string; size?: number } }).file;
+        console.error('[media:afterError]', operation, {
+          message: (error as Error)?.message,
+          stack: (error as Error)?.stack,
+          fileName: file?.name,
+          fileSize: file?.size,
+        });
+      },
+    ],
+  },
   fields: [
     { name: 'alt', type: 'text' },
   ],
