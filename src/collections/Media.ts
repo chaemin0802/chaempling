@@ -50,11 +50,11 @@ export const Media: CollectionConfig = {
       },
     ],
     afterError: [
-      async ({ error, req, operation }) => {
+      async ({ error, req }) => {
         const file = (req as unknown as { file?: { name?: string; size?: number } }).file;
-        console.error('[media:afterError]', operation, {
-          message: (error as Error)?.message,
-          stack: (error as Error)?.stack,
+        console.error('[media:afterError]', {
+          message: error?.message,
+          stack: error?.stack,
           fileName: file?.name,
           fileSize: file?.size,
         });
