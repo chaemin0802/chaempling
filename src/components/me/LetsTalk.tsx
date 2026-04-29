@@ -8,11 +8,6 @@ export default async function LetsTalk() {
   const locale = await getLocale();
   const isKo = locale === 'ko';
 
-  const links: Array<{ label: string; href: string }> = [];
-  if (contact.instagram) links.push({ label: 'instagram', href: contact.instagram });
-  if (contact.behance) links.push({ label: 'behance', href: contact.behance });
-  if (contact.linkedin) links.push({ label: 'linkedin', href: contact.linkedin });
-
   return (
     <Section id="talk">
       <div
@@ -75,36 +70,6 @@ export default async function LetsTalk() {
           </a>
         </Reveal>
 
-        {links.length > 0 && (
-          <Reveal delay={0.4}>
-            <div
-              style={{
-                marginTop: 32,
-                display: 'flex',
-                gap: 28,
-                justifyContent: 'center',
-                fontFamily: 'var(--font-display)',
-                fontSize: 13,
-                fontWeight: 500,
-                letterSpacing: '0.18em',
-                textTransform: 'uppercase',
-                color: 'rgba(244,236,216,0.55)',
-              }}
-            >
-              {links.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{ borderBottom: '0.5px solid rgba(244,236,216,0.3)', paddingBottom: 2 }}
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
-          </Reveal>
-        )}
       </div>
     </Section>
   );
