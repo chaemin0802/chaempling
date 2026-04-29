@@ -28,7 +28,7 @@ export default async function OnAI() {
         "it's not all clean. I hit walls of mannerism, my identity wobbles, and the question — who am I and what do I do — never really shuts up.",
         "that's why human conversation and connection matter more than ever. a designer's territory comes down to how deeply they can think on their own. so I keep coming back to fundamentals, to more experience, to using design as a language fluently.",
         "what I can prove, by leaning this hard into AI: how fast I read the current of the world, the changes, the shocks — and move with them. and that I think — every day — about how to stay human in this so AI doesn't replace me.",
-        "I'm protecting my designer identity. I'm protecting what's essential. AI can't replace me — it just widened my range, made the work richer. and honestly, I'm having a blast.",
+        "I'm protecting my designer identity. I'm protecting what's essential. AI can't replace me — it just widened my range, made the work richer. and honestly, I'm so excited for where this goes.",
       ];
 
   return (
