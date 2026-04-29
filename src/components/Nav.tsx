@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
@@ -10,8 +11,18 @@ export default function Nav() {
   const locale = useLocale();
   const pathname = usePathname() || '';
   const stripped = pathname.replace(new RegExp(`^/${locale}`), '') || '/';
+
+  const [hash, setHash] = useState('');
+  useEffect(() => {
+    const update = () => setHash(window.location.hash);
+    update();
+    window.addEventListener('hashchange', update);
+    return () => window.removeEventListener('hashchange', update);
+  }, [pathname]);
+
   const isWork = stripped === '/' || stripped.startsWith('/work');
-  const isAbout = stripped.startsWith('/about');
+  const isContact = stripped.startsWith('/about') && hash === '#talk';
+  const isAbout = stripped.startsWith('/about') && !isContact;
   const dim = 'opacity-60 hover:opacity-100';
   const active = 'opacity-100';
 
@@ -53,7 +64,7 @@ export default function Nav() {
         </Link>
         <Link
           href={`/${locale}/about#talk`}
-          className={`${dim} transition-opacity text-center`}
+          className={`${isContact ? active : dim} transition-opacity text-center`}
         >
           {t('contact')}
         </Link>
