@@ -49,7 +49,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
           style={{
             fontFamily: 'var(--font-display)',
             fontSize: 'clamp(48px, 10vw, 156px)',
-            lineHeight: 0.92,
+            lineHeight: 1.2,
             fontWeight: 700,
             letterSpacing: '-0.04em',
             color: 'var(--color-text)',

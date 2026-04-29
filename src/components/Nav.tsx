@@ -34,7 +34,7 @@ export default function Nav() {
       >
         <Link
           href={`/${locale}/work`}
-          className="opacity-70 hover:opacity-100 transition-opacity text-center font-semibold"
+          className="opacity-100 hover:opacity-100 transition-opacity text-center font-bold"
         >
           {t('work')}
         </Link>
