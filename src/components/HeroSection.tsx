@@ -57,7 +57,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             transform: 'translateY(-78%)',
           }}
         >
-          <span style={{ display: 'block', transform: 'translateY(-4%)' }}>Always a beginner,</span>
+          <span style={{ display: 'block', transform: 'translateY(-8%)' }}>Always a beginner,</span>
           <span style={{ display: 'block' }}>Already in the game.</span>
         </h1>
       </div>
