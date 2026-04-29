@@ -46,7 +46,19 @@ async function main() {
     }
 
     const loveRow = love.rows[0];
-    if (loveRow.image_id != null) {
+    const url = `${PUBLIC_BASE}/${encodeURIComponent(item.key)}`;
+
+    const placeholder = await db.execute({
+      sql: 'SELECT id FROM media WHERE filename = ?',
+      args: [item.key],
+    });
+
+    if (loveRow.image_id != null && placeholder.rows.length > 0) {
+      if (loveRow.image_id === placeholder.rows[0].id) {
+        skipped++;
+        continue;
+      }
+    } else if (loveRow.image_id != null) {
       const m = await db.execute({
         sql: 'SELECT id FROM media WHERE id = ?',
         args: [loveRow.image_id],
@@ -57,14 +69,9 @@ async function main() {
       }
     }
 
-    const url = `${PUBLIC_BASE}/${encodeURIComponent(item.key)}`;
     let mediaId;
-    const existing = await db.execute({
-      sql: 'SELECT id FROM media WHERE filename = ?',
-      args: [item.key],
-    });
-    if (existing.rows.length > 0) {
-      mediaId = existing.rows[0].id;
+    if (placeholder.rows.length > 0) {
+      mediaId = placeholder.rows[0].id;
     } else {
       const result = await db.execute({
         sql: `INSERT INTO media (alt, url, filename, mime_type, filesize, width, height, focal_x, focal_y)
