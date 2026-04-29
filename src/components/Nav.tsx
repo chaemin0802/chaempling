@@ -1,12 +1,19 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import LocaleSwitcher from './LocaleSwitcher';
 
 export default function Nav() {
   const t = useTranslations('nav');
   const locale = useLocale();
+  const pathname = usePathname() || '';
+  const stripped = pathname.replace(new RegExp(`^/${locale}`), '') || '/';
+  const isWork = stripped === '/' || stripped.startsWith('/work');
+  const isAbout = stripped.startsWith('/about');
+  const dim = 'opacity-60 hover:opacity-100';
+  const active = 'opacity-100';
 
   return (
     <nav
@@ -34,19 +41,19 @@ export default function Nav() {
       >
         <Link
           href={`/${locale}/work`}
-          className="opacity-100 hover:opacity-100 transition-opacity text-center font-bold"
+          className={`${isWork ? active : dim} transition-opacity text-center font-bold`}
         >
           {t('work')}
         </Link>
         <Link
           href={`/${locale}/about`}
-          className="opacity-70 hover:opacity-100 transition-opacity text-center"
+          className={`${isAbout ? active : dim} transition-opacity text-center`}
         >
           {t('about')}
         </Link>
         <Link
           href={`/${locale}/about#talk`}
-          className="opacity-70 hover:opacity-100 transition-opacity text-center"
+          className={`${dim} transition-opacity text-center`}
         >
           {t('contact')}
         </Link>
