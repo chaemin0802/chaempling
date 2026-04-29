@@ -19,7 +19,7 @@ export default async function OnAI() {
         '근데 다 좋은 건 아니야. 매너리즘에 빠지기도 하고, 정체성이 흔들리기도 하고, 나는 누구이며 무엇을 하는 사람인가에 대한 고민이 끊이질 않아.',
         '그래서 더 사람과의 대화, 연결이 중요하다고 생각해. 디자이너의 영역은 결국 얼마나 깊게 스스로 생각할 수 있느냐로 갈릴 거고. 그만큼 기본기, 더 많은 경험, 디자인을 언어처럼 자유롭게 쓰는 법을 계속 고민하고 있어.',
         'AI를 이렇게까지 활용하면서 내가 증명할 수 있는 건 — 세상의 흐름·변화·시련에 얼마나 빨리 적응하고 활용하는가. 그리고 AI에게 대체되지 않기 위해, 인간으로 어떻게 살 것인가를 매일 고민한다는 점.',
-        '디자이너라는 정체성을 계속 지키려 해. 본질을 지키려 해. AI가 나를 대체한 게 아니야 — 오히려 내가 어디서 대체될 수 없는지를 알려줬어.',
+        '디자이너라는 정체성을 계속 지키려 해. 본질을 지키려 해. AI는 나를 대체할 수 없어 — 단지 내가 할 수 있는 영역이 넓어지고, 풍부해졌을 뿐이야. 고맙게도.',
       ]
     : [
         "it started by accident. I joined the company that pioneered Korea's AI content market as a graphic design intern — and the week I walked in, the graphic team became the prompt design team. that was the beginning of my AI fate.",
@@ -28,7 +28,7 @@ export default async function OnAI() {
         "it's not all clean. I hit walls of mannerism, my identity wobbles, and the question — who am I and what do I do — never really shuts up.",
         "that's why human conversation and connection matter more than ever. a designer's territory comes down to how deeply they can think on their own. so I keep coming back to fundamentals, to more experience, to using design as a language fluently.",
         "what I can prove, by leaning this hard into AI: how fast I read the current of the world, the changes, the shocks — and move with them. and that I think — every day — about how to stay human in this so AI doesn't replace me.",
-        "I'm protecting my designer identity. I'm protecting what's essential. AI didn't replace me — it showed me where I can't be replaced.",
+        "I'm protecting my designer identity. I'm protecting what's essential. AI can't replace me — it just widened my range, made the work richer. gratefully.",
       ];
 
   return (
