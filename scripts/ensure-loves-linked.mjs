@@ -53,19 +53,28 @@ async function main() {
       args: [item.key],
     });
 
-    if (loveRow.image_id != null && placeholder.rows.length > 0) {
-      if (loveRow.image_id === placeholder.rows[0].id) {
-        skipped++;
-        continue;
-      }
-    } else if (loveRow.image_id != null) {
+    // If currently linked to something, keep it iff that media's URL is reachable.
+    if (loveRow.image_id != null) {
       const m = await db.execute({
-        sql: 'SELECT id FROM media WHERE id = ?',
+        sql: 'SELECT id, url FROM media WHERE id = ?',
         args: [loveRow.image_id],
       });
       if (m.rows.length > 0) {
-        skipped++;
-        continue;
+        const currentUrl = String(m.rows[0].url || '');
+        let ok = false;
+        if (currentUrl) {
+          try {
+            const res = await fetch(currentUrl, { method: 'HEAD' });
+            ok = res.ok;
+          } catch {
+            ok = false;
+          }
+        }
+        if (ok) {
+          skipped++;
+          continue;
+        }
+        console.log(`[ensure-loves] "${item.title}" current image broken (${currentUrl}) — relinking`);
       }
     }
 
