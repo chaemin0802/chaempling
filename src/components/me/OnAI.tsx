@@ -38,7 +38,9 @@ export default async function OnAI() {
           <SectionEyebrow>05 / on AI</SectionEyebrow>
         </Reveal>
         <Reveal delay={0.08}>
-          <SectionTitle>{isKo ? '내가 곧 AI.' : 'I am AI.'}</SectionTitle>
+          <SectionTitle>
+            {isKo ? 'AI, 너 누구야?  잠깐, 나는 누구지?' : 'AI, who are you?  wait — who am I?'}
+          </SectionTitle>
         </Reveal>
 
         <Reveal delay={0.16}>
