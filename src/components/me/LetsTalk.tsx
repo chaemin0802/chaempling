@@ -23,7 +23,7 @@ export default async function LetsTalk() {
         }}
       >
         <Reveal>
-          <SectionEyebrow>05 / inbox always open</SectionEyebrow>
+          <SectionEyebrow>06 / inbox always open</SectionEyebrow>
         </Reveal>
         <Reveal delay={0.08}>
           <SectionTitle>{isKo ? '얘기하자' : "Let's talk"}</SectionTitle>
