@@ -8,7 +8,8 @@
     "start": "node scripts/seed-db.mjs && next start -p ${PORT:-3000}",
     "lint": "next lint",
     "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
-    "migrate:media": "tsx --env-file=.env.local scripts/migrate-media-to-r2.ts"
+    "migrate:media": "tsx --env-file=.env.local scripts/migrate-media-to-r2.ts",
+    "seed:loves": "tsx --env-file=.env.local scripts/seed-loves-images.ts"
   },
   "dependencies": {
     "@payloadcms/db-sqlite": "^3.83.0",
@@ -34,6 +35,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/topojson-client": "^3.1.5",
+    "better-sqlite3": "^12.9.0",
     "cross-env": "^10.1.0",
     "tailwindcss": "^4.0.0",
     "tsx": "^4.21.0",
