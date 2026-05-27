@@ -1,0 +1,270 @@
+[
+  {
+    "id": "5",
+    "name": "Barcelona",
+    "country": "Spain",
+    "lat": 41.3851,
+    "lng": 2.1734
+  },
+  {
+    "id": "33",
+    "name": "Beijing",
+    "country": "China",
+    "lat": 39.9042,
+    "lng": 116.4074
+  },
+  {
+    "id": "19",
+    "name": "Berlin",
+    "country": "Germany",
+    "lat": 52.52,
+    "lng": 13.405
+  },
+  {
+    "id": "9",
+    "name": "Bilbao",
+    "country": "Spain",
+    "lat": 43.263,
+    "lng": -2.935
+  },
+  {
+    "id": "28",
+    "name": "Budapest",
+    "country": "Hungary",
+    "lat": 47.4979,
+    "lng": 19.0402
+  },
+  {
+    "id": "36",
+    "name": "Busan",
+    "country": "Korea",
+    "lat": 35.1796,
+    "lng": 129.0756
+  },
+  {
+    "id": "14",
+    "name": "Cambridge",
+    "country": "UK",
+    "lat": 52.2053,
+    "lng": 0.1218
+  },
+  {
+    "id": "23",
+    "name": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.6761,
+    "lng": 12.5683
+  },
+  {
+    "id": "8",
+    "name": "Córdoba",
+    "country": "Spain",
+    "lat": 37.8882,
+    "lng": -4.7794
+  },
+  {
+    "id": "20",
+    "name": "Dublin",
+    "country": "Ireland",
+    "lat": 53.3498,
+    "lng": -6.2603
+  },
+  {
+    "id": "37",
+    "name": "Gangneung",
+    "country": "Korea",
+    "lat": 37.7519,
+    "lng": 128.8761
+  },
+  {
+    "id": "2",
+    "name": "Granada",
+    "country": "Spain",
+    "lat": 37.1773,
+    "lng": -3.5986
+  },
+  {
+    "id": "24",
+    "name": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1699,
+    "lng": 24.9384
+  },
+  {
+    "id": "6",
+    "name": "Ibiza",
+    "country": "Spain",
+    "lat": 38.9067,
+    "lng": 1.4206
+  },
+  {
+    "id": "29",
+    "name": "Interlaken",
+    "country": "Switzerland",
+    "lat": 46.6863,
+    "lng": 7.8632
+  },
+  {
+    "id": "38",
+    "name": "Jeju",
+    "country": "Korea",
+    "lat": 33.4996,
+    "lng": 126.5312
+  },
+  {
+    "id": "17",
+    "name": "Lisbon",
+    "country": "Portugal",
+    "lat": 38.7223,
+    "lng": -9.1393
+  },
+  {
+    "id": "13",
+    "name": "London",
+    "country": "UK",
+    "lat": 51.5074,
+    "lng": -0.1278
+  },
+  {
+    "id": "30",
+    "name": "Lucerne",
+    "country": "Switzerland",
+    "lat": 47.0502,
+    "lng": 8.3093
+  },
+  {
+    "id": "4",
+    "name": "Madrid",
+    "country": "Spain",
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "note": "Lived 1 year"
+  },
+  {
+    "id": "7",
+    "name": "Mallorca",
+    "country": "Spain",
+    "lat": 39.5696,
+    "lng": 2.6502
+  },
+  {
+    "id": "21",
+    "name": "Marrakech",
+    "country": "Morocco",
+    "lat": 31.6295,
+    "lng": -7.9811
+  },
+  {
+    "id": "32",
+    "name": "Melbourne",
+    "country": "Australia",
+    "lat": -37.8136,
+    "lng": 144.9631
+  },
+  {
+    "id": "16",
+    "name": "Milan",
+    "country": "Italy",
+    "lat": 45.4642,
+    "lng": 9.19
+  },
+  {
+    "id": "3",
+    "name": "Málaga",
+    "country": "Spain",
+    "lat": 36.7213,
+    "lng": -4.4214
+  },
+  {
+    "id": "12",
+    "name": "Paris",
+    "country": "France",
+    "lat": 48.8566,
+    "lng": 2.3522
+  },
+  {
+    "id": "18",
+    "name": "Porto",
+    "country": "Portugal",
+    "lat": 41.1579,
+    "lng": -8.6291
+  },
+  {
+    "id": "26",
+    "name": "Prague",
+    "country": "Czechia",
+    "lat": 50.0755,
+    "lng": 14.4378
+  },
+  {
+    "id": "15",
+    "name": "Rome",
+    "country": "Italy",
+    "lat": 41.9028,
+    "lng": 12.4964
+  },
+  {
+    "id": "25",
+    "name": "Rovaniemi",
+    "country": "Finland",
+    "lat": 66.5039,
+    "lng": 25.7294
+  },
+  {
+    "id": "22",
+    "name": "Sahara",
+    "country": "Morocco",
+    "lat": 31.0997,
+    "lng": -4.0079
+  },
+  {
+    "id": "10",
+    "name": "Segovia",
+    "country": "Spain",
+    "lat": 40.9479,
+    "lng": -4.1182
+  },
+  {
+    "id": "35",
+    "name": "Seoul",
+    "country": "Korea",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "note": "My Home!"
+  },
+  {
+    "id": "1",
+    "name": "Sevilla",
+    "country": "Spain",
+    "lat": 37.3886,
+    "lng": -5.9823
+  },
+  {
+    "id": "34",
+    "name": "Shanghai",
+    "country": "China",
+    "lat": 31.2304,
+    "lng": 121.4737
+  },
+  {
+    "id": "31",
+    "name": "Sydney",
+    "country": "Australia",
+    "lat": -33.8688,
+    "lng": 151.2093
+  },
+  {
+    "id": "11",
+    "name": "Toledo",
+    "country": "Spain",
+    "lat": 39.8628,
+    "lng": -4.0273
+  },
+  {
+    "id": "27",
+    "name": "Vienna",
+    "country": "Austria",
+    "lat": 48.2082,
+    "lng": 16.3738
+  }
+]

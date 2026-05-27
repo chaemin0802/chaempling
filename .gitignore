@@ -13,3 +13,4 @@ payload.db-wal
 /media
 /payload-types.ts
 /things i love
+tsconfig.tsbuildinfo

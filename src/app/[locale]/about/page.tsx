@@ -6,8 +6,6 @@ import Cucumbers from '@/components/me/Cucumbers';
 import OnAI from '@/components/me/OnAI';
 import LetsTalk from '@/components/me/LetsTalk';
 
-export const dynamic = 'force-dynamic';
-
 export default async function AboutPage() {
   return (
     <div style={{ paddingTop: 46 }}>
