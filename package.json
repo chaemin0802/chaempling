@@ -5,27 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node scripts/seed-db.mjs && node scripts/ensure-loves-linked.mjs && next start -p ${PORT:-3000}",
-    "lint": "next lint",
-    "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
-    "migrate:media": "tsx --env-file=.env.local scripts/migrate-media-to-r2.ts",
-    "seed:loves": "tsx --env-file=.env.local scripts/seed-loves-images.ts",
-    "upload:real-loves": "tsx --env-file=.env.local scripts/upload-real-loves.ts"
+    "start": "next start -p ${PORT:-3000}",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@payloadcms/db-sqlite": "^3.83.0",
-    "@payloadcms/next": "^3.83.0",
-    "@payloadcms/richtext-lexical": "^3.83.0",
-    "@payloadcms/storage-s3": "^3.83.0",
     "d3-geo": "^3.1.1",
     "framer-motion": "^11.18.0",
-    "graphql": "^16.13.2",
     "next": "15.4.11",
     "next-intl": "^3.25.0",
-    "payload": "^3.83.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sharp": "^0.34.5",
     "topojson-client": "^3.1.0",
     "world-atlas": "^2.0.2"
   },
@@ -36,10 +25,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/topojson-client": "^3.1.5",
-    "better-sqlite3": "^12.9.0",
-    "cross-env": "^10.1.0",
     "tailwindcss": "^4.0.0",
-    "tsx": "^4.21.0",
     "typescript": "^5.7.0"
   }
 }

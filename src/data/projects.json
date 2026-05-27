@@ -1,0 +1,530 @@
+[
+  {
+    "id": "1",
+    "title": "Andalusia, My second home",
+    "titleKr": "안달루시아, 나의 두 번째 집",
+    "slug": "andalusia-my-second-home",
+    "category": "Graphic Design, Editorial Design ",
+    "year": 2025,
+    "tools": [
+      "Adobe Illustrator",
+      "Adobe Indesign",
+      "Adobe AfterEffects"
+    ],
+    "coverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Comp 1 6.34.22 PM-3.mp4",
+    "coverMimeType": "video/mp4",
+    "coverWidth": 1600,
+    "coverHeight": 1200,
+    "homeCoverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/cordoba-1.png",
+    "homeCoverMimeType": "image/png",
+    "homeCoverWidth": 1182,
+    "homeCoverHeight": 1713,
+    "descriptionEn": "A project that captures memories of my one-year Spanish exchange student days. It features the characteristics of Andalusia, a southern part of Spain where Arab culture makes it easy to find the Arabesque style Seven cities were patterned to suit their characteristics, graphic work was carried out, and posters and books were woven together.",
+    "descriptionKr": "1년간의 스페인 교환학생 시절 추억을 담아낸 프로젝트.\n아랍권 문화의 영향으로 아라베스크 양식을 쉽게 찾아볼 수 있는 스페인 남부 지방, 안달루시아의 특징을 담아\n7가지의 도시를 특색에 맞게 패턴화하여 그래픽 작업을 진행하고, 포스터와 책으로 엮어냈습니다.",
+    "published": true,
+    "images": [
+      "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Comp 1 6.34.22 PM-3.mp4"
+    ],
+    "gallery": [
+      {
+        "filename": "Design-3.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-3.png",
+        "width": 1920,
+        "height": 540,
+        "alt": "Design-3.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-2.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-2.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-2.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-4.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-4.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-4.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Comp 1.mp4",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Comp 1.mp4",
+        "width": 1600,
+        "height": 1200,
+        "alt": "Comp 1.mp4",
+        "mimeType": "video/mp4"
+      },
+      {
+        "filename": "Design-7.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-7.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-7.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-6.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-6.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-6.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-9.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-9.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-9.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Comp 1_2.mp4",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Comp 1_2.mp4",
+        "width": 1600,
+        "height": 1200,
+        "alt": "Comp 1_2.mp4",
+        "mimeType": "video/mp4"
+      },
+      {
+        "filename": "Design-10.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-10.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-10.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-8.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-8.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-8.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-11.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-11.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-1.png",
+        "mimeType": "image/png"
+      }
+    ],
+    "blocks": []
+  },
+  {
+    "id": "4",
+    "title": "DIN : Dive into Novel",
+    "titleKr": "DIN",
+    "slug": "din-dive-into-novel",
+    "category": "Graphic Design, Packaging Design",
+    "year": 2025,
+    "tools": [
+      "Adobe Illustrator",
+      "Adobe Photoshop"
+    ],
+    "coverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/tnf-2.mp4",
+    "coverMimeType": "video/mp4",
+    "coverWidth": 1600,
+    "coverHeight": 1200,
+    "homeCoverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-67.png",
+    "homeCoverMimeType": "image/png",
+    "homeCoverWidth": 5760,
+    "homeCoverHeight": 3240,
+    "descriptionEn": "",
+    "descriptionKr": "",
+    "published": true,
+    "images": [
+      "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/tnf-2.mp4"
+    ],
+    "gallery": [
+      {
+        "filename": "Design-60.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-60.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-61.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-61.png",
+        "width": 5760,
+        "height": 1620,
+        "alt": "Design-4.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-62.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-62.png",
+        "width": 5760,
+        "height": 6480,
+        "alt": "Design-3.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-63.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-63.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design-2.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-64.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-64.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design-1.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-65.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-65.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design.png",
+        "mimeType": "image/png"
+      }
+    ],
+    "blocks": []
+  },
+  {
+    "id": "2",
+    "title": "TemporalTales",
+    "titleKr": "TemporalTales",
+    "slug": "temporaltales",
+    "category": "Graphic Design, Packaging Design, Branding, Motion Graphic",
+    "year": 2024,
+    "tools": [
+      "Adobe Illustrator",
+      "Adobe AfterEffects"
+    ],
+    "coverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-41.png",
+    "coverMimeType": "image/png",
+    "coverWidth": 1920,
+    "coverHeight": 1080,
+    "homeCoverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-47.png",
+    "homeCoverMimeType": "image/png",
+    "homeCoverWidth": 1198,
+    "homeCoverHeight": 714,
+    "descriptionEn": "",
+    "descriptionKr": "",
+    "published": true,
+    "images": [
+      "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-41.png"
+    ],
+    "gallery": [
+      {
+        "filename": "Design-31.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-31.png",
+        "width": 1920,
+        "height": 540,
+        "alt": "Design-1.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-32.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-32.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-7.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-33.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-33.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-8.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-34.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-34.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-3.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "캔들 뚜껑 모션.mp4",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/캔들 뚜껑 모션.mp4",
+        "width": 1600,
+        "height": 1200,
+        "alt": "캔들 뚜껑 모션.mp4",
+        "mimeType": "video/mp4"
+      },
+      {
+        "filename": "Design-35.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-35.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-5.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "캔들 오픈 모션.mp4",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/캔들 오픈 모션.mp4",
+        "width": 1600,
+        "height": 1200,
+        "alt": "캔들 오픈 모션.mp4",
+        "mimeType": "video/mp4"
+      },
+      {
+        "filename": "Design-36.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-36.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-6.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-37.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-37.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-9.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "ㅎㅎㅎ.mp4",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/ㅎㅎㅎ.mp4",
+        "width": 1600,
+        "height": 1200,
+        "alt": "ㅎㅎㅎ.mp4",
+        "mimeType": "video/mp4"
+      },
+      {
+        "filename": "Design-42.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-42.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-48.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-48.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Design-5.png",
+        "mimeType": "image/png"
+      }
+    ],
+    "blocks": []
+  },
+  {
+    "id": "3",
+    "title": "COSNECTA",
+    "titleKr": "COSNECTA",
+    "slug": "cosnecta",
+    "category": "Graphic Design, Packaging Design, Branding",
+    "year": 2025,
+    "tools": [
+      "Midjourney",
+      "Adobe Illustrator",
+      "Adobe Photoshop"
+    ],
+    "coverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/cosnecta package 4.png",
+    "coverMimeType": "image/png",
+    "coverWidth": 6000,
+    "coverHeight": 5000,
+    "homeCoverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-46.png",
+    "homeCoverMimeType": "image/png",
+    "homeCoverWidth": 652,
+    "homeCoverHeight": 790,
+    "descriptionEn": "",
+    "descriptionKr": "",
+    "published": true,
+    "images": [
+      "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/cosnecta package 4.png"
+    ],
+    "gallery": [
+      {
+        "filename": "Design-54.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-54.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-56.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-56.png",
+        "width": 5760,
+        "height": 1620,
+        "alt": "Design-4.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-57.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-57.png",
+        "width": 5760,
+        "height": 6480,
+        "alt": "Design-3.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-58.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-58.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design-2.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "3-2.mp4",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/3-2.mp4",
+        "width": 1600,
+        "height": 1200,
+        "alt": "3.mp4",
+        "mimeType": "video/mp4"
+      },
+      {
+        "filename": "4-2.mp4",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/4-2.mp4",
+        "width": 1600,
+        "height": 1200,
+        "alt": "4.mp4",
+        "mimeType": "video/mp4"
+      },
+      {
+        "filename": "Design-59.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-59.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design-1.png",
+        "mimeType": "image/png"
+      }
+    ],
+    "blocks": []
+  },
+  {
+    "id": "5",
+    "title": "Shanghai Lettering",
+    "titleKr": "상하이 레터링",
+    "slug": "shanghai-lettering",
+    "category": "Lettering_Kor.",
+    "year": 2026,
+    "tools": [
+      "Procreate",
+      "Adobe Photoshop"
+    ],
+    "coverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Artboard 1 copy 5-7.png",
+    "coverMimeType": "image/png",
+    "coverWidth": 2481,
+    "coverHeight": 3101,
+    "homeCoverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Artboard 1 copy 5-6.png",
+    "homeCoverMimeType": "image/png",
+    "homeCoverWidth": 2481,
+    "homeCoverHeight": 3101,
+    "descriptionEn": "Shanghai Korean Lettering",
+    "descriptionKr": "상하이 한글 레터링",
+    "published": true,
+    "images": [
+      "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Artboard 1 copy 5-7.png"
+    ],
+    "gallery": [
+      {
+        "filename": "Design-70.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-70.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-71.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-71.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design-1.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-72.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-72.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design-2.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Artboard 1 copy 7 1-4.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Artboard 1 copy 7 1-4.png",
+        "width": 9924,
+        "height": 5816,
+        "alt": "Artboard 1 copy 7 1.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Artboard 1 copy 8-5.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Artboard 1 copy 8-5.png",
+        "width": 2481,
+        "height": 3102,
+        "alt": "Artboard 1 copy 8.png",
+        "mimeType": "image/png"
+      }
+    ],
+    "blocks": []
+  },
+  {
+    "id": "6",
+    "title": "That Which Falls Has Wings",
+    "titleKr": "추락하는 것은 날개가 없다",
+    "slug": "that-which-falls-has-wings",
+    "category": "Lettering_Kor.",
+    "year": 2025,
+    "tools": [
+      "Procreate",
+      "Adobe Illustrator"
+    ],
+    "coverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-76.png",
+    "coverMimeType": "image/png",
+    "coverWidth": 5760,
+    "coverHeight": 3240,
+    "homeCoverUrl": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-77.png",
+    "homeCoverMimeType": "image/png",
+    "homeCoverWidth": 5760,
+    "homeCoverHeight": 3240,
+    "descriptionEn": "Some words in the novel \"That Which Falls Has Wings\" are drawn in Korean lettering.",
+    "descriptionKr": "소설 '추락하는 것은 날개가 없다' 속 몇 가지 단어들을 한글 레터링으로 그려냈다.",
+    "published": true,
+    "images": [
+      "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-76.png"
+    ],
+    "gallery": [
+      {
+        "filename": "Design-73.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-73.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-74.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-74.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design-1.png",
+        "mimeType": "image/png"
+      },
+      {
+        "filename": "Design-75.png",
+        "url": "https://pub-377fea399d6d4161a5ce1c307767b726.r2.dev/Design-75.png",
+        "width": 5760,
+        "height": 3240,
+        "alt": "Design-2.png",
+        "mimeType": "image/png"
+      }
+    ],
+    "blocks": []
+  }
+]

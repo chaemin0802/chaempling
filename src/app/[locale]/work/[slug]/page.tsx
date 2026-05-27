@@ -5,8 +5,6 @@ import { getProjectBySlug, getPublishedProjects } from '@/lib/content';
 import { getTranslations } from 'next-intl/server';
 import MuteToggleVideo from '@/components/MuteToggleVideo';
 
-export const dynamic = 'force-dynamic';
-
 export async function generateStaticParams() {
   const projects = await getPublishedProjects();
   return projects.map((p) => ({ slug: p.slug }));

@@ -2,8 +2,6 @@ import HeroSection from '@/components/HeroSection';
 import WorkGrid from '@/components/WorkGrid';
 import { getPublishedProjects } from '@/lib/content';
 
-export const dynamic = 'force-dynamic';
-
 export default async function HomePage({
   params,
 }: {
