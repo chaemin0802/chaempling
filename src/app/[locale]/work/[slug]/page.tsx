@@ -2,8 +2,11 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getProjectBySlug, getPublishedProjects } from '@/lib/content';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import MuteToggleVideo from '@/components/MuteToggleVideo';
+
+export const dynamic = 'force-static';
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const projects = await getPublishedProjects();
@@ -16,6 +19,7 @@ export default async function ProjectDetailPage({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('work');
 
   const project = await getProjectBySlug(slug);
@@ -77,7 +81,7 @@ export default async function ProjectDetailPage({
               src={project.coverUrl}
               alt={title}
               fill
-              unoptimized={project.coverMimeType === 'image/gif' || project.coverMimeType === 'image/webp'}
+              unoptimized
               className="object-cover"
               style={{ borderRadius: 0 }}
               priority
@@ -145,7 +149,7 @@ export default async function ProjectDetailPage({
                 width={item.width}
                 height={item.height}
                 sizes="100vw"
-                unoptimized={item.mimeType === 'image/gif' || item.mimeType === 'image/webp'}
+                unoptimized
                 className="block w-full h-auto"
                 style={{ display: 'block' }}
                 priority={i === 0}

@@ -5,8 +5,15 @@ import ThingsICantDo from '@/components/me/ThingsICantDo';
 import Cucumbers from '@/components/me/Cucumbers';
 import OnAI from '@/components/me/OnAI';
 import LetsTalk from '@/components/me/LetsTalk';
+import { setRequestLocale } from 'next-intl/server';
 
-export default async function AboutPage() {
+export default async function AboutPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <div style={{ paddingTop: 46 }}>
       <Intro />

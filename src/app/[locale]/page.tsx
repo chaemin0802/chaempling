@@ -1,6 +1,7 @@
 import HeroSection from '@/components/HeroSection';
 import WorkGrid from '@/components/WorkGrid';
 import { getPublishedProjects } from '@/lib/content';
+import { setRequestLocale } from 'next-intl/server';
 
 export default async function HomePage({
   params,
@@ -8,6 +9,7 @@ export default async function HomePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const projects = await getPublishedProjects();
 
   return (

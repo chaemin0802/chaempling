@@ -1,8 +1,14 @@
 import { getPublishedProjects } from '@/lib/content';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import WorkGrid from '@/components/WorkGrid';
 
-export default async function WorkPage() {
+export default async function WorkPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const projects = await getPublishedProjects();
   const t = await getTranslations('work');
 
